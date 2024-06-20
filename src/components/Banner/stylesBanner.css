@@ -1,0 +1,12 @@
+
+
+#banner {
+    background-image: url('../../assets/banner-Batman.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    @media (max-width:768px){
+        background-position: 40%;
+    }
+}

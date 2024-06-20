@@ -1,0 +1,66 @@
+
+
+
+.fan-pics-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fan-pics{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.pic{
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20 10;
+    color: #fff;
+    font-size: 17px;
+}
+.fan-1{
+    background-image: url('../../assets/fanpic1.jpg');
+}
+.fan-2{
+    background-image: url('../../assets/fanpic2.jpg');
+}
+.fan-3{
+    background-image: url('../../assets/fanpic3.jpg');
+}
+.fan-4{
+    background-image: url('../../assets/fanpic4.jpg');
+}
+.fan-5{
+    background-image: url('../../assets/fanpic5.jpg');
+}
+.fan-6{
+    background-image: url('../../assets/fanpic6.jpg');
+}
+.fan-7{
+    background-image: url('../../assets/fanpic7.jpg');
+}
+.fan-8{
+    background-image: url('../../assets/fanpic8.jpg');
+}
+.fan-9{
+    background-image: url('../../assets/fanpic9.jpg');
+}
+
+@media(max-width:768px){
+    .fan-pics{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+}

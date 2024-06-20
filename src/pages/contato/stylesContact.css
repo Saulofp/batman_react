@@ -1,0 +1,18 @@
+.contact-container{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.insta-icon{
+    width: 150px;
+    height: auto;
+}
+.face-icon{
+    width: 150px;
+    height: auto;
+}

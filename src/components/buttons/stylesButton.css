@@ -1,0 +1,17 @@
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(97, 99, 99);
+    color: black;
+}
+.disabledButton{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(97, 99, 99);
+    color: rgb(180, 178, 178);
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
